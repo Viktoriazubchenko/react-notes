@@ -1,0 +1,34 @@
+$jet-black: rgb(0, 0, 0);
+$bright-pink: rgb(250, 37, 94);
+$soft-pink: rgb(248, 229, 229);
+$dusty-pink: rgb(195, 158, 160);
+
+.app-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    span {
+        font-weight: 600;
+        color: $jet-black;
+    }
+    h1 {
+        font-size: 36px;
+        letter-spacing: 5px;
+        color: $bright-pink;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-size: 1.2rem;
+        color: $dusty-pink;
+        letter-spacing: 3px;
+    }
+  
+}
+.badge {
+    background-color: $jet-black;
+    color: white;
+}
+.badge-pink {
+    background-color: $bright-pink;
+    color: white;
+}

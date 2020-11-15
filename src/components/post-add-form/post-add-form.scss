@@ -1,0 +1,30 @@
+$jet-black: rgb(0, 0, 0);
+$bright-pink: rgb(250, 37, 94);
+$soft-pink: rgb(248, 229, 229);
+$dusty-pink: rgb(195, 158, 160);
+$dust: rgba(195, 158, 160, 0.3);
+
+.bottom-panel {
+    margin-top: 20px;
+}
+  
+.new-post-label {
+    width: auto;
+    flex-grow: 1;
+    margin-right: 3px;
+    background-color: $dust;
+    border: 1px solid $dusty-pink;
+    letter-spacing: 3px;
+}
+
+.add-button{
+    background-color: $bright-pink;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: 600;
+    &:hover{
+        background-color: $jet-black;
+        color: white;
+    }
+}

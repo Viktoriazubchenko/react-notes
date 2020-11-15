@@ -1,0 +1,25 @@
+$jet-black: rgb(0, 0, 0);
+$bright-pink: rgb(250, 37, 94);
+$soft-pink: rgb(248, 229, 229);
+$dusty-pink: rgb(195, 158, 160);
+$dust: rgba(195, 158, 160, 0.3);
+$transparent-bright-pink: rgba(250, 37, 94, 0.3);
+
+.search-panel {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+}
+.search-input {
+    width: auto;
+    flex-grow: 1;
+    margin-right: 3px;
+    height: calc(2.5em + 0.75rem + 2px) !important;
+    border-radius: 3px;
+    background-color: $dust;
+    letter-spacing: 3px;
+    border: 1px solid $dusty-pink; 
+    text-transform: lowercase; 
+}

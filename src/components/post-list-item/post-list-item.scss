@@ -1,0 +1,62 @@
+$jet-black: rgb(0, 0, 0);
+$bright-pink: rgb(250, 37, 94);
+$soft-pink: rgb(248, 229, 229);
+$dusty-pink: rgb(195, 158, 160);
+$dust: rgba(195, 158, 160, 0.3);
+$transparent-bright-pink: rgba(250, 37, 94, 0.3);
+
+.app-list-item {
+    font-size: 1.25rem;
+    button {
+      width: 35px;
+      height: 35px;
+      margin: 3px;
+      font-size: 17px;
+      border: none;
+      background-color: $soft-pink;
+      cursor: pointer;
+      &:focus {
+          box-shadow: none;
+          outline: none;
+    }
+  }
+  &-label {
+    display: block;
+    line-height: 35px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.5s all;
+  }  
+}
+  
+.btn-star {
+      color: $dusty-pink;  
+}
+.btn-trash {
+      color: $jet-black;
+}
+.fa-heart {
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 35px;
+      font-size: 16px;
+      color: $dusty-pink;
+      transition: 0.5s all; 
+}
+  
+.like {
+  .fa-heart {
+    color: $bright-pink;
+  }
+}
+  
+.important {
+  .app-list-item-label {
+      font-weight: 500;
+  }
+  .btn-star {
+    color: $jet-black;
+  }
+}
+  

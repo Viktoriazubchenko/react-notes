@@ -1,0 +1,10 @@
+$jet-black: rgb(0, 0, 0);
+$bright-pink: rgb(250, 37, 94);
+$soft-pink: rgb(248, 229, 229);
+$dusty-pink: rgb(195, 158, 160);
+$dust: rgba(195, 158, 160, 0.3);
+$transparent-bright-pink: rgba(250, 37, 94, 0.3);
+
+.post-list-item{
+    border: 1px solid $dusty-pink;
+}

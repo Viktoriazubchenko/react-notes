@@ -1,0 +1,32 @@
+$jet-black: rgb(0, 0, 0);
+$bright-pink: rgb(250, 37, 94);
+$soft-pink: rgb(248, 229, 229);
+$dusty-pink: rgb(195, 158, 160);
+$dust: rgba(195, 158, 160, 0.3);
+$transparent-bright-pink: rgba(250, 37, 94, 0.3);
+
+.btn-red {
+    background-color: $jet-black;
+    color: white;
+    border-color: $jet-black;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    &:hover{
+        background-color: $soft-pink;
+        color: $jet-black;
+        border-color: $jet-black;
+    }
+}
+.btn-normal {
+    color: white;
+    background-color: $bright-pink;
+    border-color: $bright-pink;
+    letter-spacing: 3px; 
+    border-radius: 3px;
+    &:hover{
+        background-color: $soft-pink;
+        color: $jet-black;
+        border-color: $jet-black;
+    }
+}
+
